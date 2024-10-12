@@ -54,6 +54,8 @@ def input(key):
         elif key == 'right mouse down' and mouse.hovered_entity :
             destroy(mouse.hovered_entity)
 
+# 1, 2, 3번을 통해 다양한 블록 생성 가능
+
     if key == '1':
         selected_block = 'grass'
     if key == '2':
